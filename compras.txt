@@ -1,2 +1,5 @@
 -helado
 -agua
+-salchichas
+-telfono
+-mono
