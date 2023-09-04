@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MI CV</title>
+    </head>
+    <body>
+        <h2>EZEQUIEL SAPORITO</h2>
+        <p>mi cv prueba</p>
+    </body>
+</html>
