@@ -14,25 +14,19 @@
         <input type="text" name="email"/>
     </p>
     <p>
-        <label>Motivo de contacto</label>
-        <ul>
-            <li>
-                <input type="checkbox" name="motivoContacto" value="laboral" id="laboral"/>
-                <label for="laboral">Laboral</label>
-            </li>
-            <li>
-                <input type="checkbox" name="motivoContacto" value="social" id="social"/>
-                <label for="social">Social</label>
-            </li>
-            <li>
-                <input type="checkbox" name="motivoContacto" value="otro" id="otro"/>
-                <label for="otro">Otros</label>
-                <input type="text" name="otraMotivo" placeholder="Su Motivo"/>
-            </li>
-        </ul>
+        <label for="titulo">Motivo de contacto</label>
+        <select name="titulo">
+            <option value="laboral">Laboral</option>
+            <option value="personal">Personal</option>
+            <option value="Otros">Otros</option>
+        </select>
     </p>
     <p>
         <label for="note">Notas</label>
         <input type="text" name="Nota"/>
+    </p>
+    <p>
+        <input type="submit" value="Enviar"/>
+        <input type="submit" value="Borrar"/>
     </p>
 </form>
