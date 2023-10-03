@@ -1,42 +1,106 @@
-h1{
+.EJ1{
+    border-style:solid;
+    border-color: black;
+    border-width: 4px;
+    width: 600px;
+    height: 600px;
     color: white;
-    font-size: 3rem;
+    font-size: large;
     text-align: center;
-    width: 1000px;
-    background: linear-gradient(to right, grey, black);
-    border-radius: 10px;
-    font-family: 'Kanit', sans-serif;
+    line-height: 200px;
 }
 
-h2{
-    width: 1000px;
-    padding-left: 10px;
-    box-shadow: 0 0 5px #888;
-    border-radius: 10px;
-    font-family: 'Kanit', sans-serif;
-}
-
-h3{
-    width: 1000px;
+.EJ2{
+    border-style:solid;
+    border-color: black;
+    border-width: 4px;
+    width: 600px;
+    height: 600px;
     color: white;
-    background-color: black;
-    border-radius: 5px;
-    padding-left: 10px;
+    font-size: large;
+    text-align: center;
+    line-height: 200px;
+    display: flex;
 }
 
-p{
-    font-size: 0.85rem;
-    width: 1000px;
+.EJ3{
+    border-style:solid;
+    border-color: black;
+    border-width: 4px;
+    width: 1200px;
+    height: 200px;
+    color: white;
+    font-size: large;
+    text-align: center;
+    line-height: 200px;
+    display: flex;
+    justify-content: space-between;
 }
 
-img{
-    width: 1000px;
-    border-radius: 20px;
+.cuadradoEJ1:first-child{
+    position: relative;
+    left: 400px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
 }
 
-.secciones{
-    width: 1010px;
-    box-sizing: border-box;
-    box-shadow: 0 0 5px #888;
-    border-radius: 10px;
+.cuadradoEJ1:nth-child(2){
+    position: relative;
+    left:400px;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.cuadradoEJ1:last-child{
+    position: relative;
+    left: 400px;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.cuadradoEJ2:first-child{
+    position: relative;
+    top: 200px;
+    left: 400px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.cuadradoEJ2:nth-child(2){
+    position: relative;
+    top: 200px;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.cuadradoEJ2:last-child{
+    position: relative;
+    top: 200px;
+    right: 400px;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+.cuadradoEJ3:first-child{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.cuadradoEJ3:nth-child(2){
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.cuadradoEJ3:last-child{
+    width: 200px;
+    height: 200px;
+    background-color: green;
 }
