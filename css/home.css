@@ -1,0 +1,31 @@
+body{
+    background-color: #7a7a7a;
+}
+nav{
+    height: 75px;
+    margin: 15px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.container-fluid{
+    height: 50px;
+}
+
+.container-fluid img{
+    box-sizing: content-box;
+    height: 100%;
+    padding-left: 15px;
+}
+
+main{
+    background-color: white;
+    margin: 15px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.carousel-inner img{
+    border-radius: 25px;
+}
