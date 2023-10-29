@@ -12,7 +12,6 @@ h1 a{
 .active{
     background-color: #949090;
     border-radius: 25px;
-    padding: 5px;
 }
 
 nav{
@@ -138,4 +137,30 @@ footer{
 
 footer p{
     text-align: center;
+}
+
+.contacto {
+    display: block;
+}
+
+.contacto div{
+    margin: 30px;
+}
+
+label, input, textarea{
+    display: block;
+    width: 500px;
+    margin: 3px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.finalizar-form{
+    display: flex;
+    justify-content: center;
+}
+
+.finalizar-form input{
+    width: 250px;
+    margin: 5px;
 }
