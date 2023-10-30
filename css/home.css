@@ -37,6 +37,8 @@ nav ul li{
     flex-grow: 1;
     font-size: 20px;
     align-self: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 nav ul li a{
@@ -45,22 +47,19 @@ nav ul li a{
     padding: 3px 6px;
 }
 
-/* Dropdown Button */
 .dropbtn {
-    background-color: white;
+    background-color: transparent;
     color: black;
     padding: 3px 6px;
     font-size: 20px;
     border: none;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
 position: relative;
 display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
 display: none;
 position: absolute;
@@ -71,7 +70,6 @@ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 z-index: 1;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
 border-radius: 10px;
 color: black;
@@ -80,10 +78,8 @@ text-decoration: none;
 display: block;
 }
 
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #c9c9c9;}
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
 main{
@@ -101,7 +97,7 @@ main{
     display: flex;
     justify-content: start;
     position: relative;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .miniatura-producto{
@@ -127,6 +123,15 @@ main{
     box-shadow: -1px -1px 3px 1px rgba(0, 0, 0, 0.3);
 }
 
+.productos-hogar{
+    margin-top: 25px;
+    border-radius: 25px;
+    box-shadow: -1px -1px 3px 1px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    flex-wrap: wrap;
+}
 footer{
     background-color: white;
     margin: 15px;
