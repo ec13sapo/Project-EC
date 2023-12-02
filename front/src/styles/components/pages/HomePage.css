@@ -1,0 +1,43 @@
+.HomePage{
+    display: inline-flex;
+    flex-direction: column;
+    max-width: 80vw;
+}
+
+.productos-destacados{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 25px;
+    box-shadow: -1px -1px 3px 1px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: start;
+    position: relative;
+    overflow: auto;
+}
+
+.miniatura-producto{
+    border-radius: 25px;
+    box-shadow: -1px -1px 3px 1px rgba(0, 0, 0, 0.3);
+    margin: 15px;
+}
+
+.miniatura-producto img{
+    box-sizing: content-box;
+    padding: 15px;
+    max-width: 300px;
+    min-width: 140px;
+    width: 15vw;
+}
+
+.miniatura-producto h1{
+    text-align: center;
+}
+
+.banners img{
+    margin-top: 25px;
+    box-sizing: content-box;
+    max-height: 500px;
+    max-width: 80vw;
+    border-radius: 25px;
+    box-shadow: -1px -1px 3px 1px rgba(0, 0, 0, 0.3);
+}
