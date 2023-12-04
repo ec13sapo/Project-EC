@@ -1,5 +1,7 @@
 import React from "react";
 
+import Producto from "../components/MiniaturaProducto.js";
+
 const HomePage = (props) => {
     return (
         <div class="HomePage">
@@ -7,26 +9,12 @@ const HomePage = (props) => {
                 <img src="img/home/banner-1.png" alt="banner-1" class="banners"/>
             </div>
             <div class="productos-destacados">
-                <div class="miniatura-producto">
-                    <img src="img/productos/berlin.png" alt="berlin"/>
-                    <h1>Silla Berlin</h1>
-                </div>
-                <div class="miniatura-producto">
-                    <img src="img/productos/capri.jpg" alt="capri"/>
-                    <h1>Silla Capri</h1>
-                </div>
-                <div class="miniatura-producto">
-                    <img src="img/productos/carmin.jpg" alt="carmin"/>
-                    <h1>Silla Carmin</h1>
-                </div>
-                <div class="miniatura-producto">
-                    <img src="img/productos/laos.png" alt="laos"/>
-                    <h1>Silla Laos</h1>
-                </div>
-                <div class="miniatura-producto">
-                    <img src="img/productos/lisboa.png" alt="lisboa"/>
-                    <h1>Silla Lisboa</h1>
-                </div>
+                <Producto nombre={'Silla Berlin'} imagen={"img/productos/berlin.png"}/>
+                <Producto nombre={'Silla Capri'} imagen={"img/productos/capri.jpg"}/>
+                <Producto nombre={'Silla Carmin'} imagen={"img/productos/carmin.jpg"}/>
+                <Producto nombre={'Silla Laos'} imagen={"img/productos/laos.png"}/>
+                <Producto nombre={'Silla Lisboa'} imagen={"img/productos/lisboa.png"}/>
+                <Producto nombre={'Silla Martina'} imagen={"img/productos/martina.png"}/>
             </div>
         </div>
     );
