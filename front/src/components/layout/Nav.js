@@ -8,9 +8,9 @@ const Nav = (props) => {
         <nav>
             <div>
                 <ul>
-                    <li><NavLink to="/" className={({isActive}) => isActive ? "activo" : undefined}>Home</NavLink></li>
-                    <li><NavLink to="productos" className={({isActive}) => isActive ? "activo" : undefined}>Productos</NavLink></li>
-                    <li><NavLink to="contacto" className={({isActive}) => isActive ? "activo" : undefined}>Contacto</NavLink></li>
+                    <li><NavLink to="/" className={({isActive}) => isActive ? "activo" : undefined}>HOME</NavLink></li>
+                    <li><NavLink to="productos" className={({isActive}) => isActive ? "activo" : undefined}>PRODUCTOS</NavLink></li>
+                    <li><NavLink to="contacto" className={({isActive}) => isActive ? "activo" : undefined}>CONTACTO</NavLink></li>
                 </ul>
             </div>
         </nav>
