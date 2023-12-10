@@ -1,0 +1,9 @@
+.preguntas{
+    margin: 15px;
+    border-radius: 25px;
+    box-shadow: -1px -1px 3px 1px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    flex-wrap: wrap;
+}
