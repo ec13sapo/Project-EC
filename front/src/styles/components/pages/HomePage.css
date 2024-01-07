@@ -15,11 +15,7 @@
     overflow: auto;
 }
 
-.banners img{
-    margin-top: 25px;
-    box-sizing: content-box;
-    max-height: 500px;
-    max-width: 80vw;
+.banners div{
     border-radius: 25px;
     box-shadow: -1px -1px 3px 1px rgba(0, 0, 0, 0.3);
 }
