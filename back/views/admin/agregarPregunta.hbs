@@ -1,0 +1,22 @@
+<div class="container" style="margin: 100px auto">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <h4>Agregar una nueva pregunta frecuente</h4>
+            <form action="/admin/preguntas/agregar" method="post">
+                <div class="mb-3 row">
+                    <input type="text" class="form-control" placeholder="Pregunta" name="pregunta">
+                </div>
+                <div class="mb-3 row">
+                    <input type="text" class="form-control" placeholder="Respuesta" name="respuesta"></input>
+                </div>
+                <div style="display:flex; justify-content:space-between">
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                    <button class="btn btn-danger" onclick="location.href= '/admin/preguntas'" type="button">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{{#if error}}
+    <h5>{{message}}</h5>
+{{/if}}
