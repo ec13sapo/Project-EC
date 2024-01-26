@@ -1,9 +1,10 @@
-.productos-hogar{
-    margin: 15px;
-    border-radius: 25px;
+.container{
+    max-width: 80%;
+    margin-left: 10%;
+    padding: 25px;
+    border-radius: 50px;
     box-shadow: -1px -1px 3px 1px rgba(0, 0, 0, 0.3);
-    display: flex;
-    justify-content: space-evenly;
-    position: relative;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 25px;
 }

@@ -1,13 +1,13 @@
 import React from "react";
 import '../styles/components/layout/Pregunta.css';
 
-const Pregunta = ({pregunta,respuesta}) => {
+const Pregunta = (props) => {
+    const {pregunta, body} = props;
     return (
-        <div class="pregunta">
-            <h2>{pregunta}</h2>
-            <div class="respuesta">
-                <h3>{respuesta}</h3>
-            </div>
+        <div className="preguntas">
+            <h3>{pregunta}</h3>
+            <div dangerouslySetInnerHTML={{__html:body}}/>
+            <hr />
         </div>
     );
 }

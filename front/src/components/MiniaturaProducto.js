@@ -1,11 +1,13 @@
 import React from "react";
-import '../styles/components/layout/MiniaturaProducto.css';
+import './../styles/components/layout/MiniaturaProducto.css';
 
-const Producto = ({nombre,imagen}) => {
+const Producto = (props) => {
+    const {imagen, name, price} = props;
     return (
-        <div class="miniatura">
-            <img id="img-miniatura" src={imagen} alt={nombre}/>
-            <h1>{nombre}</h1>
+        <div className="productos">
+            <img src={imagen}/>
+            <h3>{name}</h3>
+            <h4>${price}</h4>
         </div>
     );
 }

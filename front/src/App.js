@@ -2,10 +2,6 @@ import './App.css';
 import './styles/components/layout/Nav.css'
 import './styles/components/layout/Header.css'
 import './styles/components/layout/Footer.css'
-import './styles/components/pages/HomePage.css'
-import './styles/components/pages/ProductosPage.css'
-import './styles/components/pages/ContactosPage.css'
-import './styles/components/pages/PreguntasFrecuentesPage.css'
 
 import React from 'react';
 

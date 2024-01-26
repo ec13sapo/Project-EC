@@ -1,6 +1,5 @@
 import React from "react";
-
-import Producto from "../components/MiniaturaProducto.js";
+import './../styles/components/pages/HomePage.css'
 
 const HomePage = (props) => {
     return (
@@ -27,14 +26,6 @@ const HomePage = (props) => {
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-            </div>
-            <div class="productos-destacados">
-                <Producto nombre={'Silla Berlin'} imagen={"img/productos/berlin.png"}/>
-                <Producto nombre={'Silla Capri'} imagen={"img/productos/capri.jpg"}/>
-                <Producto nombre={'Silla Carmin'} imagen={"img/productos/carmin.jpg"}/>
-                <Producto nombre={'Silla Laos'} imagen={"img/productos/laos.png"}/>
-                <Producto nombre={'Silla Lisboa'} imagen={"img/productos/lisboa.png"}/>
-                <Producto nombre={'Silla Martina'} imagen={"img/productos/martina.png"}/>
             </div>
         </div>
     );
