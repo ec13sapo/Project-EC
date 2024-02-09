@@ -63,7 +63,7 @@ router.post('/agregar', async(req,res,next) =>{
         console.log(error)
         res.render('admin/agregarProducto',{
             layout: 'admin/layout',
-            error: true, message: 'No se cargo la pregunta'
+            error: true, message: 'No se cargo el producto'
         });
     }
 });
@@ -108,7 +108,7 @@ router.post('/editar', async(req,res,next) =>{
         console.log(error)
         res.render('admin/editarProducto',{
             layout: 'admin/layout',
-            error: true, message: 'No se cargo la pregunta'
+            error: true, message: 'No se cargo el producto'
         });
     }
 });

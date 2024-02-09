@@ -4,19 +4,19 @@ import Producto from "../components/MiniaturaProducto.js";
 import './../styles/components/pages/ProductosPage.css';
 
 const ProductosPage = (props) => {
-  const [loading, setLoading] = useState(false);
-  const [productos, setProductos] = useState([]);
+    const [loading, setLoading] = useState(false);
+    const [productos, setProductos] = useState([]);
 
-  useEffect(() =>{
-      const cargarProductos = async () => {
-          setLoading(true);
-          const response = await axios.get('http://localhost:3000/api/productos');
-          setProductos(response.data);
-          setLoading(false);
-      };
+    useEffect(() =>{
+        const cargarProductos = async () => {
+            setLoading(true);
+            const response = await axios.get('http://localhost:3000/api/productos');
+            setProductos(response.data);
+            setLoading(false);
+        };
 
-      cargarProductos();
-  }, []);
+        cargarProductos();
+    }, []);
   
   return (
     <section className="container">
@@ -24,7 +24,7 @@ const ProductosPage = (props) => {
             <p>Cargando...</p>
         ) : (
             productos.map(item => <Producto key={item.id}
-                imagen={item.imagen} name={item.nombre} price={item.precio}/>)
+                imagen={item.imagen} description={item.descripcion} name={item.nombre} price={item.precio}/>)
         )}
     </section>
   )

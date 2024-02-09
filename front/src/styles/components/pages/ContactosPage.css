@@ -2,8 +2,10 @@
     display: block;
 }
 
-.contacto div{
-    margin: 30px;
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
 }
 
 label, input, textarea{
@@ -22,4 +24,13 @@ label, input, textarea{
 .finalizar-form input{
     width: 250px;
     margin: 5px;
+}
+
+#datos{
+    text-align: start;
+    
+}
+
+#datos h3{
+    text-decoration: underline;    
 }
